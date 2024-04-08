@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../eot/regular-2.eot'); /* IE9 Compat Modes */
+  src: url('../eot/regulard41d-2.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../woff2/regular-2.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../woff/regular-2.woff') format('woff'), /* Modern Browsers */
+       url('../ttf/regular-2.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../eot/bold-2.eot'); /* IE9 Compat Modes */
+  src: url('../eot/boldd41d-2.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../woff2/bold-2.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../woff/bold-2.woff') format('woff'), /* Modern Browsers */
+       url('../ttf/bold-2.ttf') format('truetype'); /* Safari, Android, iOS */
+}
