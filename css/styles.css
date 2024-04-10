@@ -1,0 +1,254 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ 
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bolder;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.17em;
+}
+
+
+.container {
+	max-width: 1142px;
+	margin: 0 auto;
+}
+
+input, select {
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	-webkit-appearance: none;
+}
+
+.error {
+	color: #ff0000 !important;
+}
+
+
+.hero {
+	background: #98CB21;
+	width: 100%;
+}
+
+.hero .shadow {
+	color: #fff;
+	background: url(../png/secondary_shadow.png) no-repeat 50% 6px;
+    background-size: cover;
+   	max-width: 1000px;
+    height: 116px;
+    margin: 0 auto;
+}
+
+.shadow h1 {
+	font-size: 30px;
+    line-height: 116px;
+    margin: 0;
+}
+
+.main-content {
+	max-width: 1000px;
+	color: #626363;
+	margin: 0 auto;
+}
+
+.main-content ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.contact-info {
+	color: #5eafcd;
+}
+
+#page-how-it-works h6 {
+	font-size: 24px;
+	margin: 0;
+}
+
+#page-how-it-works h6 span {
+	color: #7baa0b;
+}
+
+#page-how-it-works ul {
+	list-style-type: disc;
+	padding-left: 40px;
+}
+
+#page-how-it-works ul strong {
+	color: #7baa0b;
+	margin-right: 2px;
+}
+
+#page-how-it-works ul li + li {
+	margin-top: 10px;
+}
+
+
+#page-how-it-works .content-wrapper {
+	display: flex;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+#page-how-it-works .sidebar {
+	margin-left: 20px;
+}
+
+@media (max-width: 800px) {
+	#page-how-it-works .content-wrapper {
+		flex-direction: column;
+	}
+}
+
+.icon_containers {
+	max-width: 500px;
+	padding: 10px;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.icon_container {
+	text-align: center;
+}
+
+.icon_container + .icon_container {
+	margin-top: 30px;
+}
+
+.icon_container > p {
+	margin-top: 10px;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.footer-bottom {
+	min-height: 100%;
+}
+
+.footer-bottom footer {
+	margin-top: auto;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.form-container {
+	max-width: 500px;
+	color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+.form-container input:not([type="checkbox"]) {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.checkbox_container {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.submit_btn {
+	background: #E8963E;
+	border: none;
+}
+
+.submission_text {
+	font-size: 12px;
+}
+
+@media (max-width: 700px) {
+	.flex {
+		flex-direction: column;
+	}
+
+	.form-container {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	.icon_containers {
+		margin: 0 auto;
+		order: 2;
+	}
+}
+
+.more-offers {
+	 margin: 0 0 40px;
+}
+ .more-offers p {
+	 margin-bottom: 15px;
+}
+ .more-offers a {
+	 display: block;
+	 padding: 10px;
+	 border-radius: 25px;
+	 background-color: #ce2f2f;
+	 color: #fff;
+	 margin-bottom: 7px;
+	 font-size: 18px;
+	 background-image: url(../png/bigarrow.png);
+	 background-repeat: no-repeat;
+	 background-position: 99% center;
+	 text-decoration: none;
+	 padding-right: 40px;
+}
+ .more-offers a + a {
+	 margin-top: 10px;
+}
+ .more-offers a:hover {
+	 background-color: #333;
+	 color: #fff;
+	 text-decoration: none;
+}
+ 
